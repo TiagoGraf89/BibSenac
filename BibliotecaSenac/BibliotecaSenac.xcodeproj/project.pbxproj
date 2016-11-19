@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10515C61DE0C0D000DBD06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10515C51DE0C0D000DBD06E /* AppDelegate.swift */; };
+		F10515C81DE0C0D000DBD06E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10515C71DE0C0D000DBD06E /* SearchViewController.swift */; };
+		F10515CB1DE0C0D000DBD06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10515C91DE0C0D000DBD06E /* Main.storyboard */; };
+		F10515CD1DE0C0D000DBD06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10515CC1DE0C0D000DBD06E /* Assets.xcassets */; };
+		F10515D01DE0C0D000DBD06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10515CE1DE0C0D000DBD06E /* LaunchScreen.storyboard */; };
+		F10515D91DE0C2AB00DBD06E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10515D81DE0C2AB00DBD06E /* TableViewController.swift */; };
+		F10515DB1DE0C2EC00DBD06E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10515DA1DE0C2EC00DBD06E /* DetailViewController.swift */; };
+		F105CFD61DE0C4660092C407 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105CFD51DE0C4660092C407 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10515C21DE0C0D000DBD06E /* BibliotecaSenac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibliotecaSenac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10515C51DE0C0D000DBD06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F10515C71DE0C0D000DBD06E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F10515CA1DE0C0D000DBD06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10515CC1DE0C0D000DBD06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10515CF1DE0C0D000DBD06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F10515D11DE0C0D000DBD06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10515D81DE0C2AB00DBD06E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F10515DA1DE0C2EC00DBD06E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F105CFD51DE0C4660092C407 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10515BF1DE0C0D000DBD06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10515B91DE0C0CF00DBD06E = {
+			isa = PBXGroup;
+			children = (
+				F10515C41DE0C0D000DBD06E /* BibliotecaSenac */,
+				F10515C31DE0C0D000DBD06E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10515C31DE0C0D000DBD06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10515C21DE0C0D000DBD06E /* BibliotecaSenac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10515C41DE0C0D000DBD06E /* BibliotecaSenac */ = {
+			isa = PBXGroup;
+			children = (
+				F10515D71DE0C21000DBD06E /* Support Files */,
+				F10515C71DE0C0D000DBD06E /* SearchViewController.swift */,
+				F10515D81DE0C2AB00DBD06E /* TableViewController.swift */,
+				F10515C91DE0C0D000DBD06E /* Main.storyboard */,
+				F10515DA1DE0C2EC00DBD06E /* DetailViewController.swift */,
+				F105CFD51DE0C4660092C407 /* Models.swift */,
+			);
+			path = BibliotecaSenac;
+			sourceTree = "<group>";
+		};
+		F10515D71DE0C21000DBD06E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10515CC1DE0C0D000DBD06E /* Assets.xcassets */,
+				F10515CE1DE0C0D000DBD06E /* LaunchScreen.storyboard */,
+				F10515D11DE0C0D000DBD06E /* Info.plist */,
+				F10515C51DE0C0D000DBD06E /* AppDelegate.swift */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10515C11DE0C0D000DBD06E /* BibliotecaSenac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10515D41DE0C0D000DBD06E /* Build configuration list for PBXNativeTarget "BibliotecaSenac" */;
+			buildPhases = (
+				F10515BE1DE0C0D000DBD06E /* Sources */,
+				F10515BF1DE0C0D000DBD06E /* Frameworks */,
+				F10515C01DE0C0D000DBD06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibliotecaSenac;
+			productName = BibliotecaSenac;
+			productReference = F10515C21DE0C0D000DBD06E /* BibliotecaSenac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10515BA1DE0C0D000DBD06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Tiago;
+				TargetAttributes = {
+					F10515C11DE0C0D000DBD06E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F10515BD1DE0C0D000DBD06E /* Build configuration list for PBXProject "BibliotecaSenac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10515B91DE0C0CF00DBD06E;
+			productRefGroup = F10515C31DE0C0D000DBD06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10515C11DE0C0D000DBD06E /* BibliotecaSenac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10515C01DE0C0D000DBD06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10515D01DE0C0D000DBD06E /* LaunchScreen.storyboard in Resources */,
+				F10515CD1DE0C0D000DBD06E /* Assets.xcassets in Resources */,
+				F10515CB1DE0C0D000DBD06E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10515BE1DE0C0D000DBD06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10515C81DE0C0D000DBD06E /* SearchViewController.swift in Sources */,
+				F10515D91DE0C2AB00DBD06E /* TableViewController.swift in Sources */,
+				F10515C61DE0C0D000DBD06E /* AppDelegate.swift in Sources */,
+				F10515DB1DE0C2EC00DBD06E /* DetailViewController.swift in Sources */,
+				F105CFD61DE0C4660092C407 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F10515C91DE0C0D000DBD06E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10515CA1DE0C0D000DBD06E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10515CE1DE0C0D000DBD06E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10515CF1DE0C0D000DBD06E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10515D21DE0C0D000DBD06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10515D31DE0C0D000DBD06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10515D51DE0C0D000DBD06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BibliotecaSenac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITN.BibliotecaSenac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F10515D61DE0C0D000DBD06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BibliotecaSenac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITN.BibliotecaSenac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10515BD1DE0C0D000DBD06E /* Build configuration list for PBXProject "BibliotecaSenac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10515D21DE0C0D000DBD06E /* Debug */,
+				F10515D31DE0C0D000DBD06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10515D41DE0C0D000DBD06E /* Build configuration list for PBXNativeTarget "BibliotecaSenac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10515D51DE0C0D000DBD06E /* Debug */,
+				F10515D61DE0C0D000DBD06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10515BA1DE0C0D000DBD06E /* Project object */;
+}
