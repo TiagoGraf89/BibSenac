@@ -43,3 +43,17 @@ class ItemModel: NSObject {
 	var pdico: String
 	var serie: String
 }
+
+class SearchModel: NSObject
+{
+    override init() {
+        self.titulo = ""
+        self.autor = ""
+        self.desc = ""
+    }
+    
+    var titulo: String
+    var autor: String
+    var desc: String
+}
+
